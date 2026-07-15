@@ -3,7 +3,7 @@
 body {
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     text-align: center;
     display: grid;
     place-items: center;
