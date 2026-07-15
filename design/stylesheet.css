@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.block {
     background-color: hsl(0, 0%, 20%);
+    border-radius: 15px;
+    width: 50%;
+    margin: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+img {
+    margin-top: 10%;
+}
+
+.name {
+    font-weight: 400;
+}
+.location {
+    color: hsl(75, 94%, 57%);
+}
+.comment {
+}
+
+.button {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px 32px;
+    text-align: center;
 }
