@@ -8,7 +8,7 @@ body {
 }
 
 .block {
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 12%);
     border-radius: 15px;
     width: 50%;
     margin: 25%;
@@ -18,20 +18,48 @@ body {
 
 img {
     margin-top: 10%;
+    margin-bottom: 7%;
+    clip-path: circle(50%);
+    width: 25%;
 }
 
 .name {
     font-weight: 400;
+    font-size: 24px;
+    margin: 0;
 }
 .location {
     color: hsl(75, 94%, 57%);
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 14px;
+    font-weight: 600;
 }
 .comment {
+    font-size: 14px;
+    font-weight: 250;
 }
 
-.button {
-    background-color: hsl(0, 0%, 12%);
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.buttons button {
+    background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
-    padding: 15px 32px;
-    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 5%;
+    padding: 14px 40px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
