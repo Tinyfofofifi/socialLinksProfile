@@ -5,15 +5,17 @@ body {
     color: hsl(0, 0%, 100%);
     font-family: 'Inter';
     text-align: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .block {
     background-color: hsl(0, 0%, 12%);
     border-radius: 15px;
-    width: 50%;
-    margin: 25%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    width: 300px;
+    margin: auto;
 }
 
 img {
@@ -44,9 +46,9 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 80%;
+    width: 90%;
     padding-top: 4%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-bottom: 10%;
 }
 
